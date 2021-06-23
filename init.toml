@@ -45,6 +45,7 @@
     autocomplete_method = "coc"
     bootstrap_before = "myspacevim#before"
     bootstrap_after = "myspacevim#after"
+    relativenumber = false
 
 # ----------------- SpaceVim 添加的各种 layers ---------------------------------
 
