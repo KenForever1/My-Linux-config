@@ -10,7 +10,7 @@ func! myspacevim#before() abort
     " 重新映射 leader 键
     let g:mapleader = ','
     " 重新映射 window 键位
-    " let g:spacevim_windows_leader = 'c'
+    let g:spacevim_windows_leader = 'X'
 
     " 让 leaderf 可以搜索 git 的 submodule，否则 submodule 的文件会被自动忽略
     let g:Lf_RecurseSubmodules = 1
