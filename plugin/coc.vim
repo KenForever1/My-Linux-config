@@ -42,6 +42,11 @@ call coc#config("languageserver", {
       \    "snippetSupport": v:true
       \   }
       \},
+      \"rust": {
+      \  "command": "rust-analyzer",
+      \  "filetypes": ["rust"],
+      \  "rootPatterns": ["Cargo.toml"]
+      \},
       \})
 
 call coc#config("git.addGBlameToVirtualText", v:true)
