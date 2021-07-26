@@ -433,6 +433,10 @@ call coc#config("python.jediEnabled", v:false)
 s:coc_extensions 添加 coc-python 之后，会自动安装[coc-python](https://github.com/neoclide/coc-python)和[language server](https://github.com/microsoft/python-language-server)。
 通过coc.nvim，nvim 可以将自己伪装成为 vscode，coc-python 本身也是 vscode 的插件。如此，vscode 的处理 python 的技术被吸收到 vim 中间来，但是 vim 更加简洁，高效。
 
+### 基于coc.nvim的扩展--以rust为例
+
++ [基于coc.nvim的扩展--以rust为例](https://github.com/kktao/vim-learn/blob/master/readingNotes/%E5%9F%BA%E4%BA%8ESpaceVim%E7%9A%84%E6%89%A9%E5%B1%95--%E4%BB%A5rust%E4%B8%BA%E4%BE%8B.md)
+
 ## [本配置](https://github.com/Martins3/My-Linux-config)源代码解释
 总体来说，本配置的代码就是从上面介绍的各个项目提供的标准配置的组合，然后添加我的一些微调。
 
